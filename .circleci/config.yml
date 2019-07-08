@@ -6,7 +6,6 @@ version: &version 2.1
 
 settings: &settings
   working_directory: ~/scio
-  resource_class: xlarge
 
 env: &env
   GOOGLE_APPLICATION_CREDENTIALS: scripts/data-integration-test.json

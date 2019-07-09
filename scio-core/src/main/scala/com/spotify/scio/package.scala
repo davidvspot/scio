@@ -28,7 +28,7 @@ import scala.reflect.ClassTag
  * import com.spotify.scio._
  * }}}
  */
-package object scio {
+package object scio extends cats.instances.AllInstances {
 
   /** [[com.twitter.algebird.Monoid Monoid]] for `Array[Int]`. */
   implicit val intArrayMon: Monoid[Array[Int]] = new ArrayMonoid[Int]

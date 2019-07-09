@@ -346,6 +346,7 @@ lazy val scioCore: Project = Project(
       "com.twitter" %% "chill" % chillVersion,
       "com.twitter" %% "chill-algebird" % chillVersion,
       "com.twitter" % "chill-protobuf" % chillVersion,
+      "org.typelevel" %% "cats-core" % "2.0.0-M4",
       "com.esotericsoftware" % "kryo-shaded" % kryoVersion,
       "commons-io" % "commons-io" % commonsIoVersion,
       "org.apache.commons" % "commons-math3" % commonsMath3Version,
